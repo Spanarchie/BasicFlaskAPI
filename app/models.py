@@ -3,6 +3,7 @@ __author__ = 'colinmoore-hill'
 from hashlib import md5
 from app import gdb
 
+
 class Player():
 
     def createPlayer(self, jsonOBJ):
