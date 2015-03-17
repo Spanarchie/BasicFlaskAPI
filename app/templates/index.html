@@ -5,7 +5,7 @@
     <h1>Hi, {{ user }}!</h1>
     {% for post in posts %}
     <p>
-      {{ post.author.nickname }} says: <b>{{ post.body }}</b>
+      {{ post.author.nickname }} says to all: <b>{{ post.body }}</b>
     </p>
     {% endfor %}
 {% endblock %}
